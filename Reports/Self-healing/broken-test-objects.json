@@ -1,3 +1,23 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login",
+      "brokenLocator": "//*[(text() \u003d \u0027Login failed! Please ensure the username and password are valid.\u0027 or . \u003d \u0027Login failed! Please ensure the username and password are valid.\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Make Appointment\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/katalone_cura_page/paragraph-elements/p_error_message_login_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/katalone_cura_page/link-elements/a_logout_home",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CURA Healthcare Service\u0027])[2]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/katalone_cura_page/link-elements/a_logout_home_neighbor.png"
+    }
+  ]
 }

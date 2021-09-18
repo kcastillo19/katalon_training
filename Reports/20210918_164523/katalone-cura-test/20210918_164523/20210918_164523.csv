@@ -1,0 +1,122 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+katalone-cura-test,Chrome 93.0.4577.82,,,2021-09-18 16:45:31,2021-09-18 16:47:27,1m - 55.691s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_home_elements_present_and_visible,Chrome 93.0.4577.82,,Functional,2021-09-18 16:45:31,2021-09-18 16:45:43,11.991s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:45:32,2021-09-18 16:45:34,2.449s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:45:34,2021-09-18 16:45:34,0.190s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:45:34,2021-09-18 16:45:38,3.573s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:45:38,2021-09-18 16:45:38,0.266s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/text_elements/h1_title_cura_healthcare_service""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:38,2021-09-18 16:45:39,0.662s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/header_elements/h3_we_care_about_your_health_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:39,2021-09-18 16:45:39,0.457s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_make_appointment_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:39,2021-09-18 16:45:40,0.366s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_menu_toggle_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:40,2021-09-18 16:45:40,0.365s,PASSED
+"scrollToPosition(0, 275)",Chrome 93.0.4577.82,,,2021-09-18 16:45:40,2021-09-18 16:45:40,0.045s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/text_elements/h4_title_cura_healthcare_service""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:40,2021-09-18 16:45:41,0.477s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/paragraph-elements/p_address_atlanta_550_pharr_road_ne_suite_525_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:41,2021-09-18 16:45:41,0.329s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/list_elements/li_cellphone_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:41,2021-09-18 16:45:41,0.324s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/list_elements/li_email_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:41,2021-09-18 16:45:42,0.342s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/list_elements/ul_social_networks_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:42,2021-09-18 16:45:42,0.366s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/paragraph-elements/p_copyright_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:42,2021-09-18 16:45:42,0.342s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_back_to_top_home""))",Chrome 93.0.4577.82,,,2021-09-18 16:45:42,2021-09-18 16:45:43,0.345s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-18 16:45:43,2021-09-18 16:45:43,0.636s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Page_elements/Validate_menu_elements_present_and_visible,Chrome 93.0.4577.82,,Functional,2021-09-18 16:45:43,2021-09-18 16:45:51,8.145s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:45:44,2021-09-18 16:45:45,1.271s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:45:45,2021-09-18 16:45:45,0.166s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:45:45,2021-09-18 16:45:48,3.137s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:45:48,2021-09-18 16:45:48,0.031s,PASSED
+"aMenuToggle = verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_menu_toggle_home""))",Chrome 93.0.4577.82,,,2021-09-18 16:45:48,2021-09-18 16:45:49,0.430s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:45:49,2021-09-18 16:45:49,0.475s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_cura_healthcare_menu""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:45:49,2021-09-18 16:45:50,0.494s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_home_menu""))",Chrome 93.0.4577.82,,,2021-09-18 16:45:50,2021-09-18 16:45:50,0.334s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_login_menu""))",Chrome 93.0.4577.82,,,2021-09-18 16:45:50,2021-09-18 16:45:50,0.362s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-18 16:45:50,2021-09-18 16:45:51,1.137s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Home_page/Validate_scroll_down_and_scroll_up,Chrome 93.0.4577.82,,Functional,2021-09-18 16:45:51,2021-09-18 16:46:00,8.848s,PASSED
+"h1HomeTitle = ""katalone_cura_page/text_elements/h1_title_cura_healthcare_service""",Chrome 93.0.4577.82,,,2021-09-18 16:45:52,2021-09-18 16:45:52,0.000s,PASSED
+"pHomeCopyright = ""katalone_cura_page/text_elements/p_text_copyright_home""",Chrome 93.0.4577.82,,,2021-09-18 16:45:52,2021-09-18 16:45:52,0.000s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:45:52,2021-09-18 16:45:53,1.240s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:45:53,2021-09-18 16:45:53,0.153s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:45:53,2021-09-18 16:45:56,2.968s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:45:56,2021-09-18 16:45:56,0.041s,PASSED
+if (FALSE),Chrome 93.0.4577.82,,,2021-09-18 16:45:56,2021-09-18 16:45:57,0.443s,PASSED
+else,Chrome 93.0.4577.82,,,2021-09-18 16:45:57,2021-09-18 16:45:59,2.475s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-18 16:45:59,2021-09-18 16:46:00,1.236s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_make_appointment_link,Chrome 93.0.4577.82,,,2021-09-18 16:46:00,2021-09-18 16:46:06,5.332s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:46:01,2021-09-18 16:46:02,1.194s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:46:02,2021-09-18 16:46:02,0.139s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:46:02,2021-09-18 16:46:03,1.476s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:46:03,2021-09-18 16:46:03,0.042s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_make_appointment_home""), STOP_ON_FAILURE)",Chrome 93.0.4577.82,,,2021-09-18 16:46:03,2021-09-18 16:46:04,0.502s,PASSED
+"click(findTestObject(""katalone_cura_page/link-elements/a_make_appointment_home""))",Chrome 93.0.4577.82,,,2021-09-18 16:46:04,2021-09-18 16:46:05,0.663s,PASSED
+"waitForElementVisible(findTestObject(""katalone_cura_page/text_elements/h2_title_login""), 2)",Chrome 93.0.4577.82,,,2021-09-18 16:46:05,2021-09-18 16:46:05,0.416s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-18 16:46:05,2021-09-18 16:46:06,0.630s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Home_page/Validate_navigation_to_login_through_menu_toggle_link,Chrome 93.0.4577.82,,Functional,2021-09-18 16:46:06,2021-09-18 16:46:13,6.938s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:46:06,2021-09-18 16:46:07,1.211s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:46:07,2021-09-18 16:46:07,0.148s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:46:07,2021-09-18 16:46:09,1.553s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:46:09,2021-09-18 16:46:09,0.021s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_menu_toggle_home""))",Chrome 93.0.4577.82,,,2021-09-18 16:46:09,2021-09-18 16:46:09,0.532s,PASSED
+"click(findTestObject(""katalone_cura_page/link-elements/a_menu_toggle_home""))",Chrome 93.0.4577.82,,,2021-09-18 16:46:09,2021-09-18 16:46:10,0.436s,PASSED
+"verifyElementVisible(findTestObject(""katalone_cura_page/link-elements/a_login_menu""))",Chrome 93.0.4577.82,,,2021-09-18 16:46:10,2021-09-18 16:46:10,0.487s,PASSED
+"click(findTestObject(""katalone_cura_page/link-elements/a_login_menu""))",Chrome 93.0.4577.82,,,2021-09-18 16:46:10,2021-09-18 16:46:11,0.732s,PASSED
+"waitForElementVisible(findTestObject(""katalone_cura_page/text_elements/h2_title_login""), 2)",Chrome 93.0.4577.82,,,2021-09-18 16:46:11,2021-09-18 16:46:11,0.359s,PASSED
+closeBrowser(),Chrome 93.0.4577.82,,,2021-09-18 16:46:11,2021-09-18 16:46:13,1.154s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data,Chrome 93.0.4577.82,,Functional,2021-09-18 16:46:13,2021-09-18 16:46:24,11.009s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:46:13,2021-09-18 16:46:14,1.229s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:46:14,2021-09-18 16:46:14,0.141s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:46:14,2021-09-18 16:46:17,2.598s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:46:17,2021-09-18 16:46:17,0.037s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:46:17,2021-09-18 16:46:23,5.966s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 93.0.4577.82,,,2021-09-18 16:46:23,2021-09-18 16:46:24,0.649s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data,Chrome 93.0.4577.82,,Functional,2021-09-18 16:46:24,2021-09-18 16:46:34,10.076s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:46:24,2021-09-18 16:46:25,1.253s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:46:25,2021-09-18 16:46:25,0.153s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:46:25,2021-09-18 16:46:27,1.789s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:46:27,2021-09-18 16:46:27,0.031s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:46:27,2021-09-18 16:46:33,6.197s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 93.0.4577.82,,,2021-09-18 16:46:33,2021-09-18 16:46:34,0.636s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data,Chrome 93.0.4577.82,,Functional,2021-09-18 16:46:34,2021-09-18 16:46:44,10.175s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:46:34,2021-09-18 16:46:35,1.243s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:46:35,2021-09-18 16:46:35,0.143s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:46:35,2021-09-18 16:46:37,1.796s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:46:37,2021-09-18 16:46:37,0.014s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:46:37,2021-09-18 16:46:43,6.271s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 93.0.4577.82,,,2021-09-18 16:46:43,2021-09-18 16:46:44,0.679s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data,Chrome 93.0.4577.82,,Functional,2021-09-18 16:46:44,2021-09-18 16:46:54,10.029s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:46:44,2021-09-18 16:46:45,1.251s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:46:45,2021-09-18 16:46:45,0.155s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:46:45,2021-09-18 16:46:47,1.615s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:46:47,2021-09-18 16:46:47,0.048s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:46:47,2021-09-18 16:46:53,6.261s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 93.0.4577.82,,,2021-09-18 16:46:53,2021-09-18 16:46:54,0.680s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data,Chrome 93.0.4577.82,,Functional,2021-09-18 16:46:54,2021-09-18 16:47:04,9.638s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:46:54,2021-09-18 16:46:55,1.315s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:46:55,2021-09-18 16:46:56,0.157s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:46:56,2021-09-18 16:46:57,1.527s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:46:57,2021-09-18 16:46:57,0.022s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:46:57,2021-09-18 16:47:03,5.951s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 93.0.4577.82,,,2021-09-18 16:47:03,2021-09-18 16:47:04,0.652s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data,Chrome 93.0.4577.82,,Functional,2021-09-18 16:47:04,2021-09-18 16:47:14,10.104s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:47:04,2021-09-18 16:47:05,1.350s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:47:05,2021-09-18 16:47:05,0.141s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:47:05,2021-09-18 16:47:07,1.749s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:47:07,2021-09-18 16:47:07,0.029s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:47:07,2021-09-18 16:47:13,6.171s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 93.0.4577.82,,,2021-09-18 16:47:13,2021-09-18 16:47:14,0.654s,PASSED
+,,,,,,,
+Test Cases/katalon-cura-page/scenarios/Login_page/Validate_login_with_wrong_and_valid_data,Chrome 93.0.4577.82,,Functional,2021-09-18 16:47:14,2021-09-18 16:47:27,12.789s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.82,,,2021-09-18 16:47:14,2021-09-18 16:47:15,1.301s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-18 16:47:15,2021-09-18 16:47:15,0.138s,PASSED
+navigateToUrl(url),Chrome 93.0.4577.82,,,2021-09-18 16:47:15,2021-09-18 16:47:17,1.806s,PASSED
+waitForPageLoad(2),Chrome 93.0.4577.82,,,2021-09-18 16:47:17,2021-09-18 16:47:17,0.018s,PASSED
+if (TRUE),Chrome 93.0.4577.82,,,2021-09-18 16:47:17,2021-09-18 16:47:26,8.876s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 93.0.4577.82,,,2021-09-18 16:47:26,2021-09-18 16:47:27,0.638s,PASSED
